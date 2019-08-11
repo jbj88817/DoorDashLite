@@ -5,6 +5,8 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ProgressBar;
+import android.widget.TextView;
 
 import java.util.List;
 
@@ -28,6 +30,8 @@ public class RestaurantsFragment extends DaggerFragment {
 
     private RestaurantsViewModel viewModel;
     private RecyclerView recyclerView;
+    private ProgressBar progressBar;
+    private TextView errorTextView;
 
     @Inject
     ViewModelProviderFactory providerFactory;
@@ -44,6 +48,8 @@ public class RestaurantsFragment extends DaggerFragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         recyclerView = view.findViewById(R.id.recycler_view);
+        progressBar = view.findViewById(R.id.progress_bar);
+        errorTextView = view.findViewById(R.id.tv_error);
         viewModel = ViewModelProviders.of(this, providerFactory).get(RestaurantsViewModel.class);
         initRecyclerView();
         subscribeObservers();
@@ -58,13 +64,19 @@ public class RestaurantsFragment extends DaggerFragment {
                     switch (listResource.status) {
                         case LOADING:
                             Log.d(TAG, "onChanged: Loading...");
+                            progressBar.setVisibility(View.VISIBLE);
                             break;
                         case SUCCESS:
                             Log.d(TAG, "onChanged: get restaurants....");
+                            progressBar.setVisibility(View.GONE);
+                            errorTextView.setVisibility(View.GONE);
                             adapter.setRestaurants(listResource.data);
                             break;
                         case ERROR:
                             Log.d(TAG, "onChanged: Error... " + listResource.message);
+                            progressBar.setVisibility(View.GONE);
+                            errorTextView.setText(listResource.message);
+                            errorTextView.setVisibility(View.VISIBLE);
                             break;
                     }
                 }

@@ -12,7 +12,5 @@ public interface MainApi {
     @GET("v2/restaurant")
     Flowable<List<Restaurant>> getRestaurantByLatLng
             (@Query("lat") double lat,
-             @Query("lng") double lng,
-             @Query("offset") int offset,
-             @Query("limit") int limit);
+             @Query("lng") double lng);
 }
