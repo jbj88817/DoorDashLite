@@ -9,10 +9,10 @@ import us.bojie.doordashlite.data.models.Restaurant;
 
 public interface MainApi {
 
-    @GET("/v2/restaurant")
+    @GET("v2/restaurant")
     Flowable<List<Restaurant>> getRestaurantByLatLng
-            (@Query("lat") String lat,
-             @Query("lng") String lng,
-             @Query("offset") int page,
-             @Query("limit") int pageSize);
+            (@Query("lat") double lat,
+             @Query("lng") double lng,
+             @Query("offset") int offset,
+             @Query("limit") int limit);
 }

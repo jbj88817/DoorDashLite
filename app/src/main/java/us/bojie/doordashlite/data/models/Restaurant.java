@@ -11,31 +11,31 @@ public class Restaurant {
      * max_order_size : null
      * delivery_fee : 0
      * max_composite_score : 10
-     * id : 424382
-     * merchant_promotions : [{"minimum_subtotal_monetary_fields":{"currency":"USD","display_string":"$0.00","unit_amount":null,"decimal_places":2},"delivery_fee":null,"delivery_fee_monetary_fields":{"currency":"USD","display_string":"$0.00","unit_amount":null,"decimal_places":2},"minimum_subtotal":null,"new_store_customers_only":false,"id":18429}]
-     * average_rating : 4.5
-     * menus : [{"popular_items":[{"price":1095,"description":"Most popular. Mint or regular oreos Ice Cream.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/4ffd4621-3b4d-4f42-b7bd-40a00c159b11-retina-large.jpg","id":70980130,"name":"Oreo Blast"},{"price":1095,"description":"Most popular. Bananas, Nutella, and graham cracker Ice Cream.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/57270d6d-e3dc-425d-8fd7-0ee4bd9fe70b-retina-large.jpg","id":70980138,"name":"Nutella & Chill"},{"price":1095,"description":"Most popular. Strawberries, graham crackers, and condensed milk Ice Cream.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/99231767-fd7b-4fca-b042-b6403ec76eee-retina-large.jpg","id":70980140,"name":"Strawberry Fantasy"},{"price":1095,"description":"Most popular Ice Cream.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/5c24683a-0133-49cb-9015-f721b0f89e7b-retina-large.jpg","id":70980129,"name":"Cereal Killer"},{"price":1095,"description":"Hazelnut coffee Ice Cream.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/2cfe76fb-82cf-47d8-b08f-2b281f295816-retina-large.jpg","id":70980135,"name":"Wake Me Up"},{"price":1095,"description":"Vanilla custard.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/af9db8c1-6c5f-4c73-ae9f-3d157d9b73de-retina-large.jpg","id":70980132,"name":"Bae-Sic Ice Cream"},{"price":1095,"description":"Almonds, chocolate, and marshmallows Ice Cream.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/a7c3bac8-5e44-4287-aaeb-dbec3d2aa8b3-retina-large.jpg","id":70980142,"name":"Rock n' Roll"},{"price":1095,"description":"Most popular. Thai tea. Ice Cream","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/af074363-fad4-4ef8-b3af-3dde4fbfb000-retina-large.jpg","id":70980144,"name":"Mai Thai"},{"price":1095,"description":"Avocado Ice Cream.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/3c7dfe81-0fd8-4a20-977f-21749c807df0-retina-large.jpg","id":70980136,"name":"Bravocado"},{"price":1095,"description":"Non-dairy and vegan Ice Cream.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/b8201f77-c164-4b5e-905d-899b10c2f902-retina-large.jpg","id":70980152,"name":"Strawberry Lemonade Sorbet Ice Cream"}],"is_catering":false,"subtitle":"All Day","id":743527,"name":"Icicles (San Mateo) All Day 3/26"}]
+     * id : 236
+     * merchant_promotions : [{"minimum_subtotal_monetary_fields":{"currency":"USD","display_string":"$0.00","unit_amount":null,"decimal_places":2},"delivery_fee":null,"delivery_fee_monetary_fields":{"currency":"USD","display_string":"$0.00","unit_amount":null,"decimal_places":2},"minimum_subtotal":null,"new_store_customers_only":false,"id":15215},{"minimum_subtotal_monetary_fields":{"currency":"USD","display_string":"$0.00","unit_amount":null,"decimal_places":2},"delivery_fee":null,"delivery_fee_monetary_fields":{"currency":"USD","display_string":"$0.00","unit_amount":null,"decimal_places":2},"minimum_subtotal":null,"new_store_customers_only":false,"id":18429},{"minimum_subtotal_monetary_fields":{"currency":"USD","display_string":"$0.00","unit_amount":null,"decimal_places":2},"delivery_fee":null,"delivery_fee_monetary_fields":{"currency":"USD","display_string":"$0.00","unit_amount":null,"decimal_places":2},"minimum_subtotal":null,"new_store_customers_only":false,"id":7613},{"minimum_subtotal_monetary_fields":{"currency":"USD","display_string":"$0.00","unit_amount":null,"decimal_places":2},"delivery_fee":null,"delivery_fee_monetary_fields":{"currency":"USD","display_string":"$0.00","unit_amount":null,"decimal_places":2},"minimum_subtotal":null,"new_store_customers_only":false,"id":6342},{"minimum_subtotal_monetary_fields":{"currency":"USD","display_string":"$0.00","unit_amount":null,"decimal_places":2},"delivery_fee":null,"delivery_fee_monetary_fields":{"currency":"USD","display_string":"$0.00","unit_amount":null,"decimal_places":2},"minimum_subtotal":null,"new_store_customers_only":false,"id":6340},{"minimum_subtotal_monetary_fields":{"currency":"USD","display_string":"$0.00","unit_amount":null,"decimal_places":2},"delivery_fee":null,"delivery_fee_monetary_fields":{"currency":"USD","display_string":"$0.00","unit_amount":null,"decimal_places":2},"minimum_subtotal":null,"new_store_customers_only":false,"id":6338},{"minimum_subtotal_monetary_fields":{"currency":"USD","display_string":"$0.00","unit_amount":null,"decimal_places":2},"delivery_fee":null,"delivery_fee_monetary_fields":{"currency":"USD","display_string":"$0.00","unit_amount":null,"decimal_places":2},"minimum_subtotal":null,"new_store_customers_only":false,"id":6337},{"minimum_subtotal_monetary_fields":{"currency":"USD","display_string":"$0.00","unit_amount":null,"decimal_places":2},"delivery_fee":null,"delivery_fee_monetary_fields":{"currency":"USD","display_string":"$0.00","unit_amount":null,"decimal_places":2},"minimum_subtotal":null,"new_store_customers_only":false,"id":168}]
+     * average_rating : 4.7
+     * menus : [{"popular_items":[{"price":695,"description":"Choose 5, 10, 20 or 50 pieces","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/64743380-9321-48f8-acee-d5cdcde3fe49-retina-large.jpg","id":25371204,"name":"Flame Roasted Lemon Chicken Wings"},{"price":695,"description":"Crisp romaine, house-made croutons, freshly grated parmesan. Served with Caesar dressing.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/50f925b4-a8f1-48dd-9dee-acef394ff27b-retina-large.jpg","id":25371251,"name":"Caesar Salad"},{"price":1275,"description":"Vegetarian.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/9a1f55d8-2e96-4a3a-9e1c-a2c75cbd20ff-retina-large.jpg","id":25371092,"name":"Fettuccine Alfredo"},{"price":325,"description":"Vegetarian. Choose between 6 or 12 pieces. Complementary side of dressing.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/1ef685c6-49e8-44da-9661-f4a941a79b68-retina-large.jpg","id":25371203,"name":"Garlic Breadsticks"},{"price":450,"description":"","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/1e8cc0ef-96ea-47bd-92b4-376ce2b5a3ad-retina-large.jpg","id":25371199,"name":"Beef Meatballs (3)"},{"price":950,"description":"Vegetarian. Mozzarella and Tomato sauce.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/dab84e51-f028-4b4a-920d-769098333273-retina-large.jpg","id":81510821,"name":"New York"},{"price":1375,"description":"Pepperoni, meatball, bacon, sautéed mushrooms, black olives.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/cdc9131d-a78d-44fa-823a-62dbcd42d549-retina-large.jpg","id":25371190,"name":"Amicis Combo"},{"price":1075,"description":"Vegetarian. Mozzarella, tomatoes, fresh basil, olive oil.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/39fa22f9-4edd-4061-9add-8fd81702b474-retina-large.jpg","id":25371193,"name":"Margherita"},{"price":450,"description":"Vegetarian.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/5edbcb31-bc33-43c9-8553-f6ca18f0fb29-retina-large.jpg","id":25371200,"name":"Minestrone Soup"},{"price":775,"description":"New. Vegan. With garlic, hot pepper flakes, fresh lemon juice.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/a5ee5794-0494-4dc7-99e0-ec9fb312683c-retina-large.jpg","id":25371195,"name":"Pan Roasted Broccoli"},{"price":895,"description":"New. Vegetarian. Orecchiette in a creamy cheese sauce, baked with crispy toasted breadcrumbs.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/943cf6e5-9358-4877-9ecd-ad44c06a0f86-retina-large.jpg","id":25371196,"name":"Mac n Cheese"},{"price":595,"description":"Vegan. Crisp romaine, tomato, red onion, green pepper.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/dea854e2-5b12-4cf9-b156-c12f28702372-retina-large.jpg","id":25371253,"name":"Garden Salad"},{"price":1275,"description":"Whole wheat spaghetti (or your choice of other noodle) with marinara.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/08a12a8f-c477-4290-94bb-6480eac3f94e-retina-large.jpg","id":25371116,"name":"Spaghetti & Meatballs"},{"price":1275,"description":"","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/981f6f5c-0c35-415d-8e6c-82b909101a41-retina-large.jpg","id":25371119,"name":"Penne with Meat Sauce"},{"price":795,"description":"With roasted red peppers, red onion, tomato, bacon, crumbled feta, toasted pine nuts. Served with lemon basil vinaigrette.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/cf715675-5a94-499e-9a50-de44431a9725-retina-large.jpg","id":25371258,"name":"Spinach Salad"},{"price":1475,"description":"","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/73f1b1d8-9572-4941-89ef-724fcbd01044-retina-large.jpg","id":25371093,"name":"Four Cheese Lasagna with Meat Sauce"},{"price":1250,"description":"Italian salami, pepperoncini, whole kalamata olives, mozzarella added to garden salad.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/a6db4073-4661-445d-b397-7415869acbde-retina-large.jpg","id":74032512,"name":"Antipasto Salad"},{"price":1275,"description":"Vegetarian.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/9f2462c7-e181-4c1a-a8fe-ed6510e3978f-retina-large.jpg","id":25371110,"name":"Linguine with Pesto"},{"price":1275,"description":"Vegetarian.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/8760a6e8-5bd2-4a7b-8165-95dacbc20411-retina-large.jpg","id":25371106,"name":"Cheese Ravioli with Marinara"},{"price":850,"description":"","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/c1d04401-a770-41c5-bfe4-d1049f8d0ddc-retina-large.jpg","id":25371075,"name":"Meatball Parmigiana"},{"price":1275,"description":"Vegetarian. Roasted green peppers, sautéed mushrooms, caramelized onions, black olives.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/500698db-f4dc-4831-953f-857858fe75fa-retina-large.jpg","id":25371153,"name":"Veggie"},{"price":1775,"description":"","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/460cb524-1bf8-4e6b-9c3f-5089998b32ad-retina-large.jpg","id":25371096,"name":"Chicken Parmigiana"},{"price":1050,"description":"Vegetarian. With cherry tomatoes, red onions, toasted pine nuts, ricotta salata. Served with balsamic shallot vinaigrette.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/115bc0e7-35cd-4369-b5c9-0b0340c1c44f-retina-large.jpg","id":25371260,"name":"Kale & Quinoa Salad"}],"is_catering":false,"subtitle":"All Day","id":259502,"name":"Amici's East Coast Pizzeria (All Day) (Non SF)"}]
      * composite_score : 9
      * status_type : open
      * is_only_catering : false
-     * status : 50 mins
-     * number_of_ratings : 220
-     * asap_time : 50
-     * description : Dessert, Ice Cream
-     * business : {"id":109924,"name":"ICICLES"}
-     * tags : ["Dessert","Ice Cream"]
-     * yelp_review_count : 0
-     * business_id : 109924
+     * status : 48 mins
+     * number_of_ratings : 4215
+     * asap_time : 48
+     * description : Pizza, Italian, Caterers
+     * business : {"id":228,"name":"Amici's East Coast Pizzeria"}
+     * tags : ["Pizza","Italian","Caterers"]
+     * yelp_review_count : 182
+     * business_id : 228
      * extra_sos_delivery_fee : 0
-     * yelp_rating : 0
-     * cover_img_url : https://cdn.doordash.com/media/restaurant/cover/ICICLES829SanFranciscoCA.png
-     * header_img_url : https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/4ffd4621-3b4d-4f42-b7bd-40a00c159b11-retina-large.jpg
-     * address : {"city":"Mountain View","state":"CA","street":"292 Castro Street","lat":37.392822,"lng":-122.0798719,"printable_address":"292 Castro St, Mountain View, CA 94041, USA"}
-     * price_range : 1
-     * slug : icicles-mountain-view
-     * name : Icicles (Mountain View)
+     * yelp_rating : 3.5
+     * cover_img_url : https://cdn.doordash.com/media/restaurant/cover/amicis.png
+     * header_img_url : https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/64743380-9321-48f8-acee-d5cdcde3fe49-retina-large.jpg
+     * address : {"city":"Menlo Park","state":"CA","street":"880 Santa Cruz Avenue","lat":37.450266,"lng":-122.186049,"printable_address":"880 Santa Cruz Avenue, Menlo Park, CA 94025, USA"}
+     * price_range : 2
+     * slug : amici-s-east-coast-pizzeria-menlo-park
+     * name : Amici's East Coast Pizzeria (Menlo Park)
      * is_newly_added : false
-     * url : /store/icicles-mountain-view-424382/
+     * url : /store/amici-s-east-coast-pizzeria-menlo-park-236/
      * service_rate : 11
      * promotion : null
      * featured_category_description : null
@@ -43,8 +43,6 @@ public class Restaurant {
 
     @SerializedName("is_time_surging")
     private boolean isTimeSurging;
-    @SerializedName("max_order_size")
-    private Object maxOrderSize;
     @SerializedName("delivery_fee")
     private int deliveryFee;
     @SerializedName("max_composite_score")
@@ -76,7 +74,7 @@ public class Restaurant {
     @SerializedName("extra_sos_delivery_fee")
     private int extraSosDeliveryFee;
     @SerializedName("yelp_rating")
-    private int yelpRating;
+    private double yelpRating;
     @SerializedName("cover_img_url")
     private String coverImgUrl;
     @SerializedName("header_img_url")
@@ -95,10 +93,6 @@ public class Restaurant {
     private String url;
     @SerializedName("service_rate")
     private int serviceRate;
-    @SerializedName("promotion")
-    private Object promotion;
-    @SerializedName("featured_category_description")
-    private Object featuredCategoryDescription;
     @SerializedName("merchant_promotions")
     private List<MerchantPromotionsBean> merchantPromotions;
     @SerializedName("menus")
@@ -112,14 +106,6 @@ public class Restaurant {
 
     public void setIsTimeSurging(boolean isTimeSurging) {
         this.isTimeSurging = isTimeSurging;
-    }
-
-    public Object getMaxOrderSize() {
-        return maxOrderSize;
-    }
-
-    public void setMaxOrderSize(Object maxOrderSize) {
-        this.maxOrderSize = maxOrderSize;
     }
 
     public int getDeliveryFee() {
@@ -242,11 +228,11 @@ public class Restaurant {
         this.extraSosDeliveryFee = extraSosDeliveryFee;
     }
 
-    public int getYelpRating() {
+    public double getYelpRating() {
         return yelpRating;
     }
 
-    public void setYelpRating(int yelpRating) {
+    public void setYelpRating(double yelpRating) {
         this.yelpRating = yelpRating;
     }
 
@@ -322,22 +308,6 @@ public class Restaurant {
         this.serviceRate = serviceRate;
     }
 
-    public Object getPromotion() {
-        return promotion;
-    }
-
-    public void setPromotion(Object promotion) {
-        this.promotion = promotion;
-    }
-
-    public Object getFeaturedCategoryDescription() {
-        return featuredCategoryDescription;
-    }
-
-    public void setFeaturedCategoryDescription(Object featuredCategoryDescription) {
-        this.featuredCategoryDescription = featuredCategoryDescription;
-    }
-
     public List<MerchantPromotionsBean> getMerchantPromotions() {
         return merchantPromotions;
     }
@@ -364,8 +334,8 @@ public class Restaurant {
 
     public static class BusinessBean {
         /**
-         * id : 109924
-         * name : ICICLES
+         * id : 228
+         * name : Amici's East Coast Pizzeria
          */
 
         @SerializedName("id")
@@ -392,12 +362,12 @@ public class Restaurant {
 
     public static class AddressBean {
         /**
-         * city : Mountain View
+         * city : Menlo Park
          * state : CA
-         * street : 292 Castro Street
-         * lat : 37.392822
-         * lng : -122.0798719
-         * printable_address : 292 Castro St, Mountain View, CA 94041, USA
+         * street : 880 Santa Cruz Avenue
+         * lat : 37.450266
+         * lng : -122.186049
+         * printable_address : 880 Santa Cruz Avenue, Menlo Park, CA 94025, USA
          */
 
         @SerializedName("city")
@@ -469,13 +439,11 @@ public class Restaurant {
          * delivery_fee_monetary_fields : {"currency":"USD","display_string":"$0.00","unit_amount":null,"decimal_places":2}
          * minimum_subtotal : null
          * new_store_customers_only : false
-         * id : 18429
+         * id : 15215
          */
 
         @SerializedName("minimum_subtotal_monetary_fields")
         private MinimumSubtotalMonetaryFieldsBean minimumSubtotalMonetaryFields;
-        @SerializedName("delivery_fee")
-        private Object deliveryFee;
         @SerializedName("delivery_fee_monetary_fields")
         private DeliveryFeeMonetaryFieldsBean deliveryFeeMonetaryFields;
         @SerializedName("minimum_subtotal")
@@ -491,14 +459,6 @@ public class Restaurant {
 
         public void setMinimumSubtotalMonetaryFields(MinimumSubtotalMonetaryFieldsBean minimumSubtotalMonetaryFields) {
             this.minimumSubtotalMonetaryFields = minimumSubtotalMonetaryFields;
-        }
-
-        public Object getDeliveryFee() {
-            return deliveryFee;
-        }
-
-        public void setDeliveryFee(Object deliveryFee) {
-            this.deliveryFee = deliveryFee;
         }
 
         public DeliveryFeeMonetaryFieldsBean getDeliveryFeeMonetaryFields() {
@@ -545,8 +505,6 @@ public class Restaurant {
             private String currency;
             @SerializedName("display_string")
             private String displayString;
-            @SerializedName("unit_amount")
-            private Object unitAmount;
             @SerializedName("decimal_places")
             private int decimalPlaces;
 
@@ -564,14 +522,6 @@ public class Restaurant {
 
             public void setDisplayString(String displayString) {
                 this.displayString = displayString;
-            }
-
-            public Object getUnitAmount() {
-                return unitAmount;
-            }
-
-            public void setUnitAmount(Object unitAmount) {
-                this.unitAmount = unitAmount;
             }
 
             public int getDecimalPlaces() {
@@ -595,8 +545,6 @@ public class Restaurant {
             private String currency;
             @SerializedName("display_string")
             private String displayString;
-            @SerializedName("unit_amount")
-            private Object unitAmount;
             @SerializedName("decimal_places")
             private int decimalPlaces;
 
@@ -616,14 +564,6 @@ public class Restaurant {
                 this.displayString = displayString;
             }
 
-            public Object getUnitAmount() {
-                return unitAmount;
-            }
-
-            public void setUnitAmount(Object unitAmount) {
-                this.unitAmount = unitAmount;
-            }
-
             public int getDecimalPlaces() {
                 return decimalPlaces;
             }
@@ -636,11 +576,11 @@ public class Restaurant {
 
     public static class MenusBean {
         /**
-         * popular_items : [{"price":1095,"description":"Most popular. Mint or regular oreos Ice Cream.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/4ffd4621-3b4d-4f42-b7bd-40a00c159b11-retina-large.jpg","id":70980130,"name":"Oreo Blast"},{"price":1095,"description":"Most popular. Bananas, Nutella, and graham cracker Ice Cream.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/57270d6d-e3dc-425d-8fd7-0ee4bd9fe70b-retina-large.jpg","id":70980138,"name":"Nutella & Chill"},{"price":1095,"description":"Most popular. Strawberries, graham crackers, and condensed milk Ice Cream.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/99231767-fd7b-4fca-b042-b6403ec76eee-retina-large.jpg","id":70980140,"name":"Strawberry Fantasy"},{"price":1095,"description":"Most popular Ice Cream.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/5c24683a-0133-49cb-9015-f721b0f89e7b-retina-large.jpg","id":70980129,"name":"Cereal Killer"},{"price":1095,"description":"Hazelnut coffee Ice Cream.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/2cfe76fb-82cf-47d8-b08f-2b281f295816-retina-large.jpg","id":70980135,"name":"Wake Me Up"},{"price":1095,"description":"Vanilla custard.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/af9db8c1-6c5f-4c73-ae9f-3d157d9b73de-retina-large.jpg","id":70980132,"name":"Bae-Sic Ice Cream"},{"price":1095,"description":"Almonds, chocolate, and marshmallows Ice Cream.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/a7c3bac8-5e44-4287-aaeb-dbec3d2aa8b3-retina-large.jpg","id":70980142,"name":"Rock n' Roll"},{"price":1095,"description":"Most popular. Thai tea. Ice Cream","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/af074363-fad4-4ef8-b3af-3dde4fbfb000-retina-large.jpg","id":70980144,"name":"Mai Thai"},{"price":1095,"description":"Avocado Ice Cream.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/3c7dfe81-0fd8-4a20-977f-21749c807df0-retina-large.jpg","id":70980136,"name":"Bravocado"},{"price":1095,"description":"Non-dairy and vegan Ice Cream.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/b8201f77-c164-4b5e-905d-899b10c2f902-retina-large.jpg","id":70980152,"name":"Strawberry Lemonade Sorbet Ice Cream"}]
+         * popular_items : [{"price":695,"description":"Choose 5, 10, 20 or 50 pieces","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/64743380-9321-48f8-acee-d5cdcde3fe49-retina-large.jpg","id":25371204,"name":"Flame Roasted Lemon Chicken Wings"},{"price":695,"description":"Crisp romaine, house-made croutons, freshly grated parmesan. Served with Caesar dressing.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/50f925b4-a8f1-48dd-9dee-acef394ff27b-retina-large.jpg","id":25371251,"name":"Caesar Salad"},{"price":1275,"description":"Vegetarian.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/9a1f55d8-2e96-4a3a-9e1c-a2c75cbd20ff-retina-large.jpg","id":25371092,"name":"Fettuccine Alfredo"},{"price":325,"description":"Vegetarian. Choose between 6 or 12 pieces. Complementary side of dressing.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/1ef685c6-49e8-44da-9661-f4a941a79b68-retina-large.jpg","id":25371203,"name":"Garlic Breadsticks"},{"price":450,"description":"","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/1e8cc0ef-96ea-47bd-92b4-376ce2b5a3ad-retina-large.jpg","id":25371199,"name":"Beef Meatballs (3)"},{"price":950,"description":"Vegetarian. Mozzarella and Tomato sauce.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/dab84e51-f028-4b4a-920d-769098333273-retina-large.jpg","id":81510821,"name":"New York"},{"price":1375,"description":"Pepperoni, meatball, bacon, sautéed mushrooms, black olives.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/cdc9131d-a78d-44fa-823a-62dbcd42d549-retina-large.jpg","id":25371190,"name":"Amicis Combo"},{"price":1075,"description":"Vegetarian. Mozzarella, tomatoes, fresh basil, olive oil.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/39fa22f9-4edd-4061-9add-8fd81702b474-retina-large.jpg","id":25371193,"name":"Margherita"},{"price":450,"description":"Vegetarian.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/5edbcb31-bc33-43c9-8553-f6ca18f0fb29-retina-large.jpg","id":25371200,"name":"Minestrone Soup"},{"price":775,"description":"New. Vegan. With garlic, hot pepper flakes, fresh lemon juice.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/a5ee5794-0494-4dc7-99e0-ec9fb312683c-retina-large.jpg","id":25371195,"name":"Pan Roasted Broccoli"},{"price":895,"description":"New. Vegetarian. Orecchiette in a creamy cheese sauce, baked with crispy toasted breadcrumbs.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/943cf6e5-9358-4877-9ecd-ad44c06a0f86-retina-large.jpg","id":25371196,"name":"Mac n Cheese"},{"price":595,"description":"Vegan. Crisp romaine, tomato, red onion, green pepper.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/dea854e2-5b12-4cf9-b156-c12f28702372-retina-large.jpg","id":25371253,"name":"Garden Salad"},{"price":1275,"description":"Whole wheat spaghetti (or your choice of other noodle) with marinara.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/08a12a8f-c477-4290-94bb-6480eac3f94e-retina-large.jpg","id":25371116,"name":"Spaghetti & Meatballs"},{"price":1275,"description":"","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/981f6f5c-0c35-415d-8e6c-82b909101a41-retina-large.jpg","id":25371119,"name":"Penne with Meat Sauce"},{"price":795,"description":"With roasted red peppers, red onion, tomato, bacon, crumbled feta, toasted pine nuts. Served with lemon basil vinaigrette.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/cf715675-5a94-499e-9a50-de44431a9725-retina-large.jpg","id":25371258,"name":"Spinach Salad"},{"price":1475,"description":"","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/73f1b1d8-9572-4941-89ef-724fcbd01044-retina-large.jpg","id":25371093,"name":"Four Cheese Lasagna with Meat Sauce"},{"price":1250,"description":"Italian salami, pepperoncini, whole kalamata olives, mozzarella added to garden salad.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/a6db4073-4661-445d-b397-7415869acbde-retina-large.jpg","id":74032512,"name":"Antipasto Salad"},{"price":1275,"description":"Vegetarian.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/9f2462c7-e181-4c1a-a8fe-ed6510e3978f-retina-large.jpg","id":25371110,"name":"Linguine with Pesto"},{"price":1275,"description":"Vegetarian.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/8760a6e8-5bd2-4a7b-8165-95dacbc20411-retina-large.jpg","id":25371106,"name":"Cheese Ravioli with Marinara"},{"price":850,"description":"","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/c1d04401-a770-41c5-bfe4-d1049f8d0ddc-retina-large.jpg","id":25371075,"name":"Meatball Parmigiana"},{"price":1275,"description":"Vegetarian. Roasted green peppers, sautéed mushrooms, caramelized onions, black olives.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/500698db-f4dc-4831-953f-857858fe75fa-retina-large.jpg","id":25371153,"name":"Veggie"},{"price":1775,"description":"","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/460cb524-1bf8-4e6b-9c3f-5089998b32ad-retina-large.jpg","id":25371096,"name":"Chicken Parmigiana"},{"price":1050,"description":"Vegetarian. With cherry tomatoes, red onions, toasted pine nuts, ricotta salata. Served with balsamic shallot vinaigrette.","img_url":"https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/115bc0e7-35cd-4369-b5c9-0b0340c1c44f-retina-large.jpg","id":25371260,"name":"Kale & Quinoa Salad"}]
          * is_catering : false
          * subtitle : All Day
-         * id : 743527
-         * name : Icicles (San Mateo) All Day 3/26
+         * id : 259502
+         * name : Amici's East Coast Pizzeria (All Day) (Non SF)
          */
 
         @SerializedName("is_catering")
@@ -696,11 +636,11 @@ public class Restaurant {
 
         public static class PopularItemsBean {
             /**
-             * price : 1095
-             * description : Most popular. Mint or regular oreos Ice Cream.
-             * img_url : https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/4ffd4621-3b4d-4f42-b7bd-40a00c159b11-retina-large.jpg
-             * id : 70980130
-             * name : Oreo Blast
+             * price : 695
+             * description : Choose 5, 10, 20 or 50 pieces
+             * img_url : https://res.cloudinary.com/doordash/image/fetch/c_fill,w_1200,h_672,q_auto:eco,f_auto/https://doordash-static.s3.amazonaws.com/media/photos/64743380-9321-48f8-acee-d5cdcde3fe49-retina-large.jpg
+             * id : 25371204
+             * name : Flame Roasted Lemon Chicken Wings
              */
 
             @SerializedName("price")
