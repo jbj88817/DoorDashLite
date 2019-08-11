@@ -50,7 +50,7 @@ public class Restaurant {
     @SerializedName("id")
     private int id;
     @SerializedName("average_rating")
-    private double averageRating;
+    private String averageRating;
     @SerializedName("composite_score")
     private int compositeScore;
     @SerializedName("status_type")
@@ -132,11 +132,11 @@ public class Restaurant {
         this.id = id;
     }
 
-    public double getAverageRating() {
+    public String getAverageRating() {
         return averageRating;
     }
 
-    public void setAverageRating(double averageRating) {
+    public void setAverageRating(String averageRating) {
         this.averageRating = averageRating;
     }
 

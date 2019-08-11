@@ -14,13 +14,13 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
+import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import dagger.android.support.DaggerFragment;
 import us.bojie.doordashlite.R;
 import us.bojie.doordashlite.data.models.Restaurant;
 import us.bojie.doordashlite.util.Resource;
-import us.bojie.doordashlite.util.VerticalSpacingItemDecoration;
 import us.bojie.doordashlite.viewmodel.ViewModelProviderFactory;
 
 public class RestaurantsFragment extends DaggerFragment {
@@ -73,8 +73,10 @@ public class RestaurantsFragment extends DaggerFragment {
     }
 
     private void initRecyclerView() {
-        recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
-        VerticalSpacingItemDecoration itemDecoration = new VerticalSpacingItemDecoration(15);
+        LinearLayoutManager layoutManager = new LinearLayoutManager(getContext());
+        recyclerView.setLayoutManager(layoutManager);
+        DividerItemDecoration itemDecoration = new DividerItemDecoration(getContext(),
+                layoutManager.getOrientation());
         recyclerView.addItemDecoration(itemDecoration);
         recyclerView.setAdapter(adapter);
     }

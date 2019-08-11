@@ -12,8 +12,6 @@ import com.bumptech.glide.request.RequestOptions;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.inject.Inject;
-
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import us.bojie.doordashlite.R;
@@ -65,7 +63,6 @@ public class RestaurantsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
             star = itemView.findViewById(R.id.tv_star);
             fee = itemView.findViewById(R.id.tv_fee);
             options = new RequestOptions()
-                    .centerCrop()
                     .placeholder(R.drawable.doordash);
         }
 
@@ -79,14 +76,22 @@ public class RestaurantsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
                     .apply(options)
                     .into(restaurantFoodImg);
             name.setText(restaurant.getName());
-            type.setText(restaurant.getDescription());
+            if (restaurant.getDescription().length() == 0) {
+                type.setText(type.getContext().getString(R.string.dot));
+            } else {
+                type.setText(restaurant.getDescription());
+            }
             time.setText(restaurant.getStatus());
-            star.setText(String.valueOf(restaurant.getAverageRating()));
+            if (restaurant.getAverageRating().equalsIgnoreCase("0.0")) {
+                star.setText(star.getContext().getString(R.string.newly_added));
+            } else {
+                star.setText(restaurant.getAverageRating());
+            }
             int deliveryFee = restaurant.getDeliveryFee();
             if (deliveryFee == 0) {
                 fee.setText(R.string.free_delivery);
             } else {
-                fee.setText(fee.getContext().getString(R.string.delivery_fee, deliveryFee));
+                fee.setText(fee.getContext().getString(R.string.delivery_fee, String.valueOf(deliveryFee)));
             }
         }
     }
