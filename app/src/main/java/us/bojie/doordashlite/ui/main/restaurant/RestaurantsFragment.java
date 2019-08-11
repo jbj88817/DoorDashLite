@@ -5,7 +5,6 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import java.util.List;
 
@@ -15,20 +14,26 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import dagger.android.support.DaggerFragment;
 import us.bojie.doordashlite.R;
 import us.bojie.doordashlite.data.models.Restaurant;
 import us.bojie.doordashlite.util.Resource;
+import us.bojie.doordashlite.util.VerticalSpacingItemDecoration;
 import us.bojie.doordashlite.viewmodel.ViewModelProviderFactory;
 
 public class RestaurantsFragment extends DaggerFragment {
     private static final String TAG = "RestaurantsFragment";
 
     private RestaurantsViewModel viewModel;
-    private TextView textView;
+    private RecyclerView recyclerView;
 
     @Inject
     ViewModelProviderFactory providerFactory;
+
+    @Inject
+    RestaurantsAdapter adapter;
 
     @Nullable
     @Override
@@ -38,8 +43,9 @@ public class RestaurantsFragment extends DaggerFragment {
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
-        textView = view.findViewById(R.id.test_text_view);
+        recyclerView = view.findViewById(R.id.recycler_view);
         viewModel = ViewModelProviders.of(this, providerFactory).get(RestaurantsViewModel.class);
+        initRecyclerView();
         subscribeObservers();
     }
 
@@ -55,7 +61,7 @@ public class RestaurantsFragment extends DaggerFragment {
                             break;
                         case SUCCESS:
                             Log.d(TAG, "onChanged: get restaurants....");
-                            textView.setText(listResource.data.get(0).getName());
+                            adapter.setRestaurants(listResource.data);
                             break;
                         case ERROR:
                             Log.d(TAG, "onChanged: Error... " + listResource.message);
@@ -64,5 +70,12 @@ public class RestaurantsFragment extends DaggerFragment {
                 }
             }
         });
+    }
+
+    private void initRecyclerView() {
+        recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+        VerticalSpacingItemDecoration itemDecoration = new VerticalSpacingItemDecoration(15);
+        recyclerView.addItemDecoration(itemDecoration);
+        recyclerView.setAdapter(adapter);
     }
 }

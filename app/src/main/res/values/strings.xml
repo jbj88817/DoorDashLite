@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">DoorDashLite</string>
+    <string name="free_delivery">Free delivery</string>
+    <string name="delivery_fee">Delivery Fee: %1$s</string>
 </resources>
