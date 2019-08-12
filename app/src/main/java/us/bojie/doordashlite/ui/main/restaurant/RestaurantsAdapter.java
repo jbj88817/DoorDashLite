@@ -9,41 +9,31 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.ListAdapter;
 import androidx.recyclerview.widget.RecyclerView;
 import us.bojie.doordashlite.R;
 import us.bojie.doordashlite.data.models.Restaurant;
 
-public class RestaurantsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
+public class RestaurantsAdapter extends ListAdapter<Restaurant, RestaurantsAdapter.RestaurantsHolder> {
 
-    private List<Restaurant> restaurants = new ArrayList<>();
+    public RestaurantsAdapter() {
+        super(Restaurant.DIFF_CALLBACK);
+    }
 
     @NonNull
     @Override
-    public RecyclerView.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public RestaurantsHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.restaurant_list_item, parent, false);
-        return new PostViewHolder(view);
+        return new RestaurantsHolder(view);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
-        ((PostViewHolder) holder).bind(restaurants.get(position));
+    public void onBindViewHolder(@NonNull RestaurantsHolder holder, int position) {
+        holder.bind(getItem(position));
     }
 
-    @Override
-    public int getItemCount() {
-        return restaurants.size();
-    }
-
-    public void setRestaurants(List<Restaurant> restaurants) {
-        this.restaurants = restaurants;
-        notifyDataSetChanged();
-    }
-
-    static class PostViewHolder extends RecyclerView.ViewHolder {
+    static class RestaurantsHolder extends RecyclerView.ViewHolder {
         ImageView restaurantLogo;
         ImageView restaurantFoodImg;
         TextView name;
@@ -53,7 +43,7 @@ public class RestaurantsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
         TextView fee;
         RequestOptions options;
 
-        public PostViewHolder(@NonNull View itemView) {
+        public RestaurantsHolder(@NonNull View itemView) {
             super(itemView);
             restaurantLogo = itemView.findViewById(R.id.iv_image1);
             restaurantFoodImg = itemView.findViewById(R.id.iv_image2);

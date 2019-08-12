@@ -70,7 +70,7 @@ public class RestaurantsFragment extends DaggerFragment {
                             Log.d(TAG, "onChanged: get restaurants....");
                             progressBar.setVisibility(View.GONE);
                             errorTextView.setVisibility(View.GONE);
-                            adapter.setRestaurants(listResource.data);
+                            adapter.submitList(listResource.data);
                             break;
                         case ERROR:
                             Log.d(TAG, "onChanged: Error... " + listResource.message);
