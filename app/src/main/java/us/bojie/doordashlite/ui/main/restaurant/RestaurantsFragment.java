@@ -8,21 +8,16 @@ import android.view.ViewGroup;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import java.util.List;
-
 import javax.inject.Inject;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import dagger.android.support.DaggerFragment;
 import us.bojie.doordashlite.R;
-import us.bojie.doordashlite.data.models.Restaurant;
-import us.bojie.doordashlite.util.Resource;
 import us.bojie.doordashlite.viewmodel.ViewModelProviderFactory;
 
 public class RestaurantsFragment extends DaggerFragment {
@@ -57,28 +52,25 @@ public class RestaurantsFragment extends DaggerFragment {
 
     private void subscribeObservers() {
         viewModel.observeRestaurants().removeObservers(getViewLifecycleOwner());
-        viewModel.observeRestaurants().observe(getViewLifecycleOwner(), new Observer<Resource<List<Restaurant>>>() {
-            @Override
-            public void onChanged(Resource<List<Restaurant>> listResource) {
-                if (listResource != null) {
-                    switch (listResource.status) {
-                        case LOADING:
-                            Log.d(TAG, "onChanged: Loading...");
-                            progressBar.setVisibility(View.VISIBLE);
-                            break;
-                        case SUCCESS:
-                            Log.d(TAG, "onChanged: get restaurants....");
-                            progressBar.setVisibility(View.GONE);
-                            errorTextView.setVisibility(View.GONE);
-                            adapter.submitList(listResource.data);
-                            break;
-                        case ERROR:
-                            Log.d(TAG, "onChanged: Error... " + listResource.message);
-                            progressBar.setVisibility(View.GONE);
-                            errorTextView.setText(listResource.message);
-                            errorTextView.setVisibility(View.VISIBLE);
-                            break;
-                    }
+        viewModel.observeRestaurants().observe(getViewLifecycleOwner(), listResource -> {
+            if (listResource != null) {
+                switch (listResource.status) {
+                    case LOADING:
+                        Log.d(TAG, "onChanged: Loading...");
+                        progressBar.setVisibility(View.VISIBLE);
+                        break;
+                    case SUCCESS:
+                        Log.d(TAG, "onChanged: get restaurants....");
+                        progressBar.setVisibility(View.GONE);
+                        errorTextView.setVisibility(View.GONE);
+                        adapter.submitList(listResource.data);
+                        break;
+                    case ERROR:
+                        Log.d(TAG, "onChanged: Error... " + listResource.message);
+                        progressBar.setVisibility(View.GONE);
+                        errorTextView.setText(listResource.message);
+                        errorTextView.setVisibility(View.VISIBLE);
+                        break;
                 }
             }
         });
