@@ -82,6 +82,9 @@ public class RestaurantsFragment extends DaggerFragment {
         DividerItemDecoration itemDecoration = new DividerItemDecoration(getContext(),
                 layoutManager.getOrientation());
         recyclerView.addItemDecoration(itemDecoration);
+//        adapter.setOnClickListener(view -> {
+//
+//        });
         recyclerView.setAdapter(adapter);
     }
 }

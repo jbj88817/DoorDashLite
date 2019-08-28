@@ -12,7 +12,11 @@ import com.bumptech.glide.request.RequestOptions;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.ListAdapter;
 import androidx.recyclerview.widget.RecyclerView;
+
+import java.util.Map;
+
 import us.bojie.doordashlite.R;
+import us.bojie.doordashlite.data.SharedPrefsUtils;
 import us.bojie.doordashlite.data.models.Restaurant;
 
 public class RestaurantsAdapter extends ListAdapter<Restaurant, RestaurantsAdapter.RestaurantsHolder> {
@@ -20,6 +24,15 @@ public class RestaurantsAdapter extends ListAdapter<Restaurant, RestaurantsAdapt
     public RestaurantsAdapter() {
         super(Restaurant.DIFF_CALLBACK);
     }
+//    private OnClickListener mOnClickListener;
+//
+//    public interface OnClickListener {
+//        void onPreferredClick(View view);
+//    }
+//
+//    public void setOnClickListener(OnClickListener onClickListener) {
+//        mOnClickListener = onClickListener;
+//    }
 
     @NonNull
     @Override
@@ -41,6 +54,8 @@ public class RestaurantsAdapter extends ListAdapter<Restaurant, RestaurantsAdapt
         TextView time;
         TextView star;
         TextView fee;
+        View setPreferredBtn;
+        TextView preferred;
         RequestOptions options;
 
         public RestaurantsHolder(@NonNull View itemView) {
@@ -52,6 +67,9 @@ public class RestaurantsAdapter extends ListAdapter<Restaurant, RestaurantsAdapt
             time = itemView.findViewById(R.id.tv_time);
             star = itemView.findViewById(R.id.tv_star);
             fee = itemView.findViewById(R.id.tv_fee);
+            setPreferredBtn = itemView.findViewById(R.id.btn_preferred);
+//            setPreferredBtn.setOnClickListener(onClickListener::onPreferredClick);
+            preferred = itemView.findViewById(R.id.tv_preferred);
             options = new RequestOptions()
                     .placeholder(R.drawable.doordash);
         }
@@ -82,6 +100,27 @@ public class RestaurantsAdapter extends ListAdapter<Restaurant, RestaurantsAdapt
                 fee.setText(R.string.free_delivery);
             } else {
                 fee.setText(fee.getContext().getString(R.string.delivery_fee, String.valueOf(deliveryFee)));
+            }
+
+            String id = String.valueOf(restaurant.getId());
+            setPreferredBtn.setOnClickListener(v -> {
+                boolean isPreferred = SharedPrefsUtils.getSharedPreference(itemView.getContext())
+                        .getBoolean(id, false);
+                SharedPrefsUtils.getSharedPreference(itemView.getContext()).edit()
+                        .putBoolean(id, !isPreferred).apply();
+                showPreferred(!isPreferred);
+            });
+
+            boolean isPreferred = SharedPrefsUtils.getSharedPreference(itemView.getContext())
+                    .getBoolean(id, false);
+            showPreferred(isPreferred);
+        }
+
+        private void showPreferred(boolean isPreferred) {
+            if (isPreferred) {
+                preferred.setText(itemView.getContext().getString(R.string.preferred));
+            } else {
+                preferred.setText(itemView.getContext().getString(R.string.not_preferred));
             }
         }
     }
