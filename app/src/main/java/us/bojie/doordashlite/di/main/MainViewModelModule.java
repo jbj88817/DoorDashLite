@@ -5,6 +5,7 @@ import dagger.Binds;
 import dagger.Module;
 import dagger.multibindings.IntoMap;
 import us.bojie.doordashlite.di.ViewModelKey;
+import us.bojie.doordashlite.ui.main.restaurant.AuthViewModel;
 import us.bojie.doordashlite.ui.main.restaurant.RestaurantsViewModel;
 
 @Module
@@ -14,4 +15,9 @@ public abstract class MainViewModelModule {
     @IntoMap
     @ViewModelKey(RestaurantsViewModel.class)
     public abstract ViewModel bindRestaurantsViewModel(RestaurantsViewModel viewModel);
+
+    @Binds
+    @IntoMap
+    @ViewModelKey(AuthViewModel.class)
+    public abstract ViewModel bindAuthViewModel(AuthViewModel viewModel);
 }
